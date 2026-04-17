@@ -164,6 +164,8 @@
 <layer number="159" name="Geh-Bear2" color="7" fill="1" visible="no" active="no"/>
 <layer number="160" name="Topologie" color="7" fill="1" visible="no" active="no"/>
 <layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
+<layer number="162" name="LAYER_162" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="163" name="LAYER_163" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
 <layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
@@ -244,6 +246,31 @@
 <wire x1="16.84" y1="4.81" x2="16.84" y2="3.01" width="0.1524" layer="20"/>
 <rectangle x1="43.25" y1="18.73" x2="48.35" y2="21.5" layer="41"/>
 <rectangle x1="43.26" y1="18.74" x2="48.35" y2="21.49" layer="42"/>
+<text x="5.81" y="31.05" size="0.3048" layer="25" rot="R90">R_TYPE_SEL</text>
+<text x="6.8" y="28.73" size="0.3048" layer="25" rot="R90">R1_EP_DR</text>
+<text x="10.97" y="29.66" size="0.3048" layer="25" rot="R90">R2_EP_DR</text>
+<text x="17.38" y="32.45" size="0.3048" layer="25">R_PWR_EPD</text>
+<text x="22.94" y="29.93" size="0.3048" layer="25">R2_USB</text>
+<text x="26.97" y="30.35" size="0.3048" layer="25">R1_USB</text>
+<text x="29.94" y="29.32" size="0.3048" layer="25">C42</text>
+<text x="29.98" y="28.3" size="0.3048" layer="25">C43</text>
+<text x="16.68" y="24.99" size="0.3048" layer="25">C27</text>
+<text x="21.34" y="21.23" size="0.3048" layer="25">C32</text>
+<text x="20.43" y="15.96" size="0.3048" layer="25">C34</text>
+<text x="23.88" y="13.64" size="0.3048" layer="25">C23</text>
+<text x="13.73" y="8.94" size="0.3048" layer="25">R5</text>
+<text x="13.54" y="8.35" size="0.3048" layer="25">C30</text>
+<text x="24.65" y="9.02" size="0.3048" layer="25">R8</text>
+<text x="24.54" y="8.27" size="0.3048" layer="25">C31</text>
+<text x="30.98" y="8.82" size="0.3048" layer="25">C38</text>
+<text x="28.66" y="13.03" size="0.3048" layer="25">R18</text>
+<text x="28.79" y="14.51" size="0.3048" layer="25">R17</text>
+<text x="29.46" y="15.14" size="0.3048" layer="25">R4</text>
+<text x="28.76" y="15.92" size="0.3048" layer="25">R2</text>
+<text x="35.54" y="8.2" size="0.3048" layer="25">C29</text>
+<text x="35.03" y="9.28" size="0.3048" layer="25">R7</text>
+<text x="33.13" y="12.95" size="0.3048" layer="25">R9</text>
+<text x="44.14" y="11.16" size="0.3048" layer="25">R3</text>
 </plain>
 <libraries>
 <library name="InkTime_v5" urn="urn:adsk.wipprod:fs.file:vf.RcN38PXGRYuKjgO-tls7Dg">
@@ -2660,7 +2687,7 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <attribute name="VALUE" x="15.568" y="24.371825" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
 <element uuid="0xABCDEF18" name="X1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.RcN38PXGRYuKjgO-tls7Dg" package="NORDIC_NRF_BT-XTAL_2016_N" value="32MHz" x="44.22" y="24.41" smashed="yes">
-<attribute name="NAME" x="44.44" y="25.93" size="0.3" layer="25"/>
+<attribute name="NAME" x="41.42" y="25.91" size="0.3" layer="25"/>
 <attribute name="VALUE" x="41.52" y="21.51" size="1.27" layer="27"/>
 </element>
 <element uuid="0xABCDEF1A" name="X2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.RcN38PXGRYuKjgO-tls7Dg" package="NORDIC_NRF_1_XTAL_3215_N" override_locally_modified="yes" value="32.768kHz" x="27.5276" y="19.82" smashed="yes">
@@ -3817,28 +3844,6 @@ XTAL SMD 3.2 x 1.5 mm</description>
 </via>
 <via x="14.98" y="20.89" extent="1-16" drill="0.35" alwaysstop="yes">
 </via>
-<wire x1="43.875" y1="26.74" x2="44.25" y2="28.55" width="0" layer="19" extent="1-1"/>
-<wire x1="34.75" y1="11.57" x2="33.545" y2="11.79" width="0" layer="19" extent="1-1"/>
-<wire x1="29.89" y1="24.45" x2="29.775" y2="23.04" width="0" layer="19" extent="1-1"/>
-<wire x1="22.11" y1="30.27" x2="23.59" y2="30.355" width="0" layer="19" extent="1-1"/>
-<wire x1="43.02" y1="9.83" x2="43.955" y2="11.17" width="0" layer="19" extent="1-1"/>
-<wire x1="30.01" y1="26.31" x2="29.64" y2="28.035" width="0" layer="19" extent="1-1"/>
-<wire x1="26" y1="9.72" x2="26.416" y2="8.001" width="0" layer="19" extent="1-1"/>
-<wire x1="27.38" y1="10.58" x2="26" y2="9.72" width="0" layer="19" extent="1-1"/>
-<wire x1="14.98" y1="20.89" x2="16.7" y2="21.576825" width="0" layer="19" extent="1-1"/>
-<wire x1="17.38" y1="17.28" x2="17.435" y2="19.16" width="0" layer="19" extent="1-1"/>
-<wire x1="25.63" y1="18" x2="27.25" y2="16.94" width="0" layer="19" extent="1-1"/>
-<wire x1="6.44" y1="32.56" x2="6.095" y2="30.57" width="0" layer="19" extent="1-1"/>
-<wire x1="27.89" y1="24.91" x2="29.89" y2="24.45" width="0" layer="19" extent="1-1"/>
-<wire x1="26.66" y1="23.73" x2="27.89" y2="24.91" width="0" layer="19" extent="1-1"/>
-<wire x1="46.4" y1="22.17" x2="44.945" y2="23.835" width="0" layer="19" extent="1-1"/>
-<wire x1="40.89" y1="11.88" x2="38.1" y2="10.922" width="0" layer="19" extent="1-1"/>
-<wire x1="18.09" y1="34.38" x2="21" y2="32.55" width="0" layer="19" extent="1-1"/>
-<wire x1="18.56" y1="28.69" x2="18.173175" y2="25.229225" width="0" layer="19" extent="1-1"/>
-<wire x1="17.49" y1="10.25" x2="15.8602" y2="7.0753" width="0" layer="19" extent="1-1"/>
-<wire x1="19.53" y1="10.95" x2="17.49" y2="10.25" width="0" layer="19" extent="1-1"/>
-<wire x1="19.22" y1="12.61" x2="19.53" y2="10.95" width="0" layer="19" extent="1-1"/>
-<wire x1="46.32" y1="17.93" x2="46.4" y2="22.17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC1" pad="D1"/>
@@ -5282,6 +5287,34 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <approved hash="19,1,3b0e0c19d445e74a"/>
 <approved hash="19,1,69267cc804c91127"/>
 <approved hash="19,1,eedff911811096de"/>
+<approved hash="19,1,82c60c2d1d0965a3"/>
+<approved hash="19,1,60cab57003bb86e9"/>
+<approved hash="19,1,0459199f16de04f0"/>
+<approved hash="19,1,b712b16a4251e484"/>
+<approved hash="19,1,8fe8ba3cb1f717d4"/>
+<approved hash="19,1,8deca49a8a712c54"/>
+<approved hash="19,1,d088789899acbed5"/>
+<approved hash="19,1,68c8cf917d955605"/>
+<approved hash="19,1,87f107c683ac8e6b"/>
+<approved hash="19,1,f03ade1a7f7554f3"/>
+<approved hash="19,1,5a3a8fc997fccb04"/>
+<approved hash="19,1,df2ae87e0dd00e03"/>
+<approved hash="19,1,98813b89b340fbf1"/>
+<approved hash="5,1,97304bec28d2baba"/>
+<approved hash="5,1,151782ebae387f05"/>
+<approved hash="5,1,0e1ab8b0eba09c91"/>
+<approved hash="5,1,390e937a49167664"/>
+<approved hash="5,1,8e3d19881855ea74"/>
+<approved hash="5,1,6d358d8c0eb8728d"/>
+<approved hash="5,1,115204bcfb8bd616"/>
+<approved hash="5,1,3b3882f0e23f0e04"/>
+<approved hash="5,1,845185df9432e168"/>
+<approved hash="5,1,30c9f1c2714467c5"/>
+<approved hash="5,1,21e24a0ba68f21cf"/>
+<approved hash="5,1,0e48bc7d0ce73185"/>
+<approved hash="5,1,cd4163f5bfc01b0b"/>
+<approved hash="5,1,8ef1e67047d8a22d"/>
+<approved hash="5,1,86573d56bdbc6492"/>
 </errors>
 </board>
 </drawing>
